@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# set git preferences
+git config --global color.ui false
+
 # clone manifest repo
 git clone --depth=1 https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0 /usr/src/twrp
 
