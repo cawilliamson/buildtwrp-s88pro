@@ -26,4 +26,5 @@ lunch omni_s88pro-eng
 mka -j$(nproc --all) recoveryimage
 
 # copy image to output dir
-cp -v out/product/s88pro/recovery.img /var/tmp/buildtwrp/
+cp -v out/target/product/s88pro/recovery.img /var/tmp/buildtwrp/
+chmod 777 /var/tmp/buildtwrp/recovery.img
