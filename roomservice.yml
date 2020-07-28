@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="cawilliamson/android_device_doogee_s88pro_twrp" path="device/doogee/s88pro" remote="github" revision="master" />
+</manifest>
